@@ -107,7 +107,7 @@ namespace DeuTutor
                 return ConsoleColor.White;
             }
 
-            if (!String.IsNullOrEmpty(answer) && Regex.IsMatch(line[0], answer.Replace(" ", ".")))
+            if (!String.IsNullOrEmpty(answer) && Regex.IsMatch(line[0], answer.Replace(" ", ".+")))
             {
                 Console.CursorTop--;
                 if (line.Count() < 3)
