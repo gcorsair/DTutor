@@ -1,6 +1,0 @@
-c:\users\vbi\documents\visual studio 2013\Projects\DeuTutor\DeuTutor\bin\Debug\DeuTutor.exe.config
-c:\users\vbi\documents\visual studio 2013\Projects\DeuTutor\DeuTutor\bin\Debug\DeuTutor.exe
-c:\users\vbi\documents\visual studio 2013\Projects\DeuTutor\DeuTutor\bin\Debug\DeuTutor.pdb
-c:\users\vbi\documents\visual studio 2013\Projects\DeuTutor\DeuTutor\obj\Debug\DeuTutor.csprojResolveAssemblyReference.cache
-c:\users\vbi\documents\visual studio 2013\Projects\DeuTutor\DeuTutor\obj\Debug\DeuTutor.exe
-c:\users\vbi\documents\visual studio 2013\Projects\DeuTutor\DeuTutor\obj\Debug\DeuTutor.pdb

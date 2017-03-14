@@ -19,8 +19,8 @@ namespace DeuTutor
 			int statWhite = 0;
 			string DELIMITER = "	";
 			Random rnd = new Random();
-			Console.SetBufferSize(80, 400);
-			Console.SetWindowSize(80, 40);
+            Console.SetWindowSize(80, 40);
+            Console.SetBufferSize(80, 400);
 			List<string> lines = File.ReadAllLines("data.txt").ToList();
 			int maxLines;
 
