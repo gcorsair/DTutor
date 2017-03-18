@@ -58,7 +58,7 @@ namespace DeuTutor
 						string[] line = lines[i].Split(new String[] { DELIMITER }, StringSplitOptions.None);
 						Console.WriteLine(line[1]);
 						Console.ForegroundColor = ProcessAnswer(Console.ReadLine(), line, ref i, ref maxLines);
-						Console.WriteLine(line[0]);
+						Console.WriteLine(line[0].Replace("!", ""));
 						Console.WriteLine();
 						UpdateStats(Console.ForegroundColor);
 						Console.ResetColor();
@@ -110,8 +110,9 @@ namespace DeuTutor
 			if (answer.Contains("SAVE"))
 			{
 				Save(answer.Split(new String[] { " " }, StringSplitOptions.None)[1]);
+				return ConsoleColor.White;
 			}
-			if (answer.Contains("!"))
+			if (answer.StartsWith("!"))
 			{
 				Exit();
 			}
@@ -121,8 +122,9 @@ namespace DeuTutor
 				Console.CursorTop--;
 				return ConsoleColor.White;
 			}
-
-			if (!String.IsNullOrEmpty(answer) && Regex.IsMatch(line[0], answer.Replace(" ", ".+")))
+			bool exactMatchRequired = line[0].StartsWith("!");
+			bool match = exactMatchRequired ? line[0].Replace("!", "").Equals(answer) : !String.IsNullOrEmpty(answer) && Regex.IsMatch(line[0], answer.Replace(" ", " .*"));
+			if (match)
 			{
 				Console.CursorTop--;
 				if (line.Count() < 3)
