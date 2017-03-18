@@ -1,0 +1,48 @@
+!der -e	Definiter Maskulin Nominative
+!den -en	Definiter Maskulin Akkusative
+!dem -en	Definiter Maskulin Dative
+!des -en -es	Definiter Maskulin Genitiv
+!das -e	Definiter Neutral Nominative
+!das -e	Definiter Neutral Akkusative
+!dem -en	Definiter Neutral Dative
+!des -en -es	Definiter Neutral Genitiv
+!die -e	Definiter Feminin Nominative
+!die -e	Definiter Feminin Akkusative
+!der -en	Definiter Feminin Dative
+!der -en	Definiter Feminin Genitiv
+!die -en	Definiter PLURAL Nominative
+!die -en	Definiter PLURAL Akkusative
+!den -en -n	Definiter PLURAL Dative
+!der -en	Definiter PLURAL Genitiv
+!ein -er	Indef./Possessiv Maskulin Nominative
+!einen -en	Indef./Possessiv Maskulin Akkusative
+!einem -en	Indef./Possessiv Maskulin Dative
+!eines -en -es	Indef./Possessiv Maskulin Genitiv
+!ein -es	Indef./Possessiv Neutral Nominative
+!ein -es	Indef./Possessiv Neutral Akkusative
+!einem -en	Indef./Possessiv Neutral Dative
+!eines -en -es	Indef./Possessiv Neutral Genitiv
+!eine -e	Indef./Possessiv Feminin Nominative
+!eine -e	Indef./Possessiv Feminin Akkusative
+!einer -en	Indef./Possessiv Feminin Dative
+!einer -en	Indef./Possessiv Feminin Genitiv
+!meine -en	Indef./Possessiv PLURAL Nominative
+!meine -en	Indef./Possessiv PLURAL Akkusative
+!meinen -en -n	Indef./Possessiv PLURAL Dative
+!meiner -en	Indef./Possessiv PLURAL Genitiv
+!-er	Ohne Artikel Maskulin Nominative
+!-en	Ohne Artikel Maskulin Akkusative
+!-em	Ohne Artikel Maskulin Dative
+!-en -s	Ohne Artikel Maskulin Genitiv
+!-es	Ohne Artikel Neutral Nominative
+!-es	Ohne Artikel Neutral Akkusative
+!-em	Ohne Artikel Neutral Dative
+!-en -s	Ohne Artikel Neutral Genitiv
+!-e	Ohne Artikel Feminin Nominative
+!-e	Ohne Artikel Feminin Akkusative
+!-er	Ohne Artikel Feminin Dative
+!-er	Ohne Artikel Feminin Genitiv
+!-e	Ohne Artikel PLURAL Nominative
+!-e	Ohne Artikel PLURAL Akkusative
+!-en -n	Ohne Artikel PLURAL Dative
+!-er	Ohne Artikel PLURAL Genitiv
