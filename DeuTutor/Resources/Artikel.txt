@@ -1,0 +1,82 @@
+der Fahrer (водитель)	-er
+der Sportler (спортмен)	-ler
+der Gärtner (садовник)	-ner
+der Lehrling (ученик)	-ling
+der Fuchs (лиса)	-s
+der Student (студент)	-ent
+der Laborant (лаборант)	-ant
+der Publizist (публицист)	-ist
+der Poet (поэт)	-et
+der Pilot (пилот)	-ot
+der Kandidat (кандидат)	-at
+der Philosoph (философ)	-soph
+der Astronom (астроном)	-nom
+der Photograph (фотограф)	-graph
+der Ingenieur (инженер)	-eur
+der Pionier (пионер)	-ier
+der Jubilar (юбиляр)	-ar
+der Sekretär (секретарь)	-är
+der Doktor (доктор)	-or
+die Laborantin (лаборантка)	-in
+die Übung (упражнение)	-ung
+die Freiheit (свобода)	-heit
+die Möglichkeit (возможность)	-keit
+die Landschaft (ландшафт)	-schaft
+die Malerei (живопись)	-ei
+die Chemie (химия)	-ie
+die Universität (университет)	-tät
+die Station (станция)	-tion
+die Kultur (культура)	-ur
+die Physik (физика)	-ik
+die Reportage (репортаж)	-age
+die Fassade (фасад)	-ade
+die Ambulanz (амбулатория)	-anz
+die Existenz (существование)	-enz
+die Fahrt (езда)	Сущ-, обр. от гл- при помощи суффикса -t
+die Kunst (искусство)	Сущ-, обр. от гл- при помощи суффикса -t
+die Macht (мощь)	Сущ-, обр. от гл- при помощи суффикса -t
+das Mädchen (девочка)	-chen
+das Tischlein (столик)	-lein
+das Fünftel (одна пятая)	-(s)tel
+das Stadium (стадион)	-(i)um
+das Kabinett (кабинет)	-ett
+das Dokument (документ)	-ment
+das Drama (драма)	-ma
+das Kino (кинотеатр)	-o
+das Gewässer (воды)	Сущ. с приставкой Ge-
+das Gebirge (горная цепь)	Сущ. с приставкой Ge-
+das Gemälde (картина)	Сущ. с приставкой Ge-
+das Laufen (бег) - от laufen (бегать)	Субстантивированные инфинитивы
+das Lesen (чтение) - от lesen (читать)	Субстантивированные инфинитивы
+der Mann (мужчина)	лица мужского пола
+der Bär (медведь)	животные мужского пола
+der Norden (север)	стороны света
+der Sommer (лето)	времена года
+der Januar (январь)	названия месяцев
+der Montag (понедельник)	дни недели
+der Morgen (утро), но die Nacht (ночь)	времена суток
+der Regen (дождь)	осадки
+der Granit (гранит)	минералы
+der Rubin (рубин)	камни
+der Harz (Гарц)	названия гор
+der Baikal (Байкал)	названия озер
+der Wodka (водка), но das Bier (пиво)	спиртные напитки
+der Euro (евро), но die Kopeke (копейка), die Krone (крона), die Mark (марка)	денежные единицы
+der Mond (луна), но die Venus (венера)	небесные тела
+der Opel, der BMW	названия автомобильных марок
+die Frau (женщина), но das Mädchen	лица женского пола
+die Kuh (корова), но das Huhn (курица), das Schaf (овца)	животные женского пола
+die Birke (береза), но der Ahorn	названия деревьев
+die Aster (астра), но der Mohn (мак), der Kaktus (кактус)	названия цветов
+die Himbeere (малина)	названия ягод
+die Birne (груша), но der Apfel (яблоко), der Pfirsich (персик), der Kohl (капуста), der Kürbis (тыква)	название фруктов и овощей
+die Elbe, die Oder, die Spree, но der Rhein, der Main, der Neckar	большинство немецких рек
+das Kind (ребенок), das Lamm (ягненок)	названия детей и детенышей
+das Silber (серебро), но der Stahl (сталь), die Bronze (бронза)	металлы и сплавы
+das Chlor (хлор), но der Schwefel (сера), der Phosphor (фосфор)	химические элементы
+(das) Afrika, но die Arktis (Арктика), die Antarktis (Антарктика)	континенты
+(das) Deutschland, но der Iran, der Irak, der Sudan, die BRD, die Schweiz, die Türkei, die Mongolei, die Ukraine, die USA	страны
+(das) Moskau, но der Haag	города
+(das) Rügen, но die Krim (Крым)	названия островов
+das Kilowatt (киловатт)	физические единицы
+das Russisch (русский язык)	языки

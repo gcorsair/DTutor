@@ -1,11 +1,11 @@
 !der -e	Definiter Maskulin Nominative
 !den -en	Definiter Maskulin Akkusative
 !dem -en	Definiter Maskulin Dative
-!des -en -es	Definiter Maskulin Genitiv
+!des -en -s	Definiter Maskulin Genitiv
 !das -e	Definiter Neutral Nominative
 !das -e	Definiter Neutral Akkusative
 !dem -en	Definiter Neutral Dative
-!des -en -es	Definiter Neutral Genitiv
+!des -en -s	Definiter Neutral Genitiv
 !die -e	Definiter Feminin Nominative
 !die -e	Definiter Feminin Akkusative
 !der -en	Definiter Feminin Dative
@@ -17,11 +17,11 @@
 !ein -er	Indef./Possessiv Maskulin Nominative
 !einen -en	Indef./Possessiv Maskulin Akkusative
 !einem -en	Indef./Possessiv Maskulin Dative
-!eines -en -es	Indef./Possessiv Maskulin Genitiv
+!eines -en -s	Indef./Possessiv Maskulin Genitiv
 !ein -es	Indef./Possessiv Neutral Nominative
 !ein -es	Indef./Possessiv Neutral Akkusative
 !einem -en	Indef./Possessiv Neutral Dative
-!eines -en -es	Indef./Possessiv Neutral Genitiv
+!eines -en -s	Indef./Possessiv Neutral Genitiv
 !eine -e	Indef./Possessiv Feminin Nominative
 !eine -e	Indef./Possessiv Feminin Akkusative
 !einer -en	Indef./Possessiv Feminin Dative
