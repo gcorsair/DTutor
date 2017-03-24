@@ -58,7 +58,7 @@ namespace DeuTutor
 						string[] line = lines[i].Split(new String[] { DELIMITER }, StringSplitOptions.None);
 						Console.WriteLine(line[1]);
 						Console.ForegroundColor = ProcessAnswer(Console.ReadLine(), line, ref i, ref maxLines);
-						Console.WriteLine(line[0].Replace("!", ""));
+						Console.WriteLine(line[0].Replace("!", "").Replace("?", ""));
 						Console.WriteLine();
 						UpdateStats(Console.ForegroundColor);
 						Console.ResetColor();
@@ -112,18 +112,27 @@ namespace DeuTutor
 				Save(answer.Split(new String[] { " " }, StringSplitOptions.None)[1]);
 				return ConsoleColor.White;
 			}
-			if (answer.StartsWith("!"))
-			{
-				Exit();
-			}
 
 			if (String.IsNullOrEmpty(answer))
 			{
 				Console.CursorTop--;
 				return ConsoleColor.White;
 			}
-			bool exactMatchRequired = line[0].StartsWith("!");
-			bool match = exactMatchRequired ? line[0].Replace("!", "").Equals(answer) : !String.IsNullOrEmpty(answer) && Regex.IsMatch(line[0], answer.Replace(" ", " .*"));
+			char matchMethod = line[0][0]; //get first character
+			bool match;
+
+			switch (matchMethod.ToString())
+			{
+				case "!": //exact match
+					match = line[0].Replace("!", "").Equals(answer);
+					break;
+				case "?": //should start with
+					match = line[0].Replace("?", "").StartsWith(answer);
+					break;
+				default:
+					match = !String.IsNullOrEmpty(answer) && Regex.IsMatch(line[0], answer.Replace(" ", " .*"));
+					break;
+			}
 			if (match)
 			{
 				Console.CursorTop--;
