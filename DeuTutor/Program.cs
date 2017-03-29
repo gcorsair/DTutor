@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using VoiceRSS_SDK;
 
 namespace DeuTutor
 {
@@ -25,7 +26,6 @@ namespace DeuTutor
 			Console.OutputEncoding = UTF8Encoding.Unicode;
 			Console.SetWindowSize(80, 40);
 			Console.SetBufferSize(80, 400);
-
 			while (true)
 			{
 				statGreen = 0;
