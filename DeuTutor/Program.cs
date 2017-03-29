@@ -26,6 +26,7 @@ namespace DeuTutor
 			Console.OutputEncoding = UTF8Encoding.Unicode;
 			Console.SetWindowSize(80, 40);
 			Console.SetBufferSize(80, 400);
+			
 			while (true)
 			{
 				statGreen = 0;
@@ -41,6 +42,7 @@ namespace DeuTutor
 
 		private static void RunExercise()
 		{
+			Voice voice = new Voice();
 			int maxLines;
 			Random rnd = new Random();
 			do
@@ -57,8 +59,10 @@ namespace DeuTutor
 						Console.Title = String.Format("Progress: {0}/{1}  G:{2} W:{3} R:{4}", i + 1, maxLines, statGreen, statWhite, statRed);
 						string[] line = lines[i].Split(new String[] { DELIMITER }, StringSplitOptions.None);
 						Console.WriteLine(line[1]);
+						string cleanAnswer = line[0].Replace("!", "").Replace("?", "");
 						Console.ForegroundColor = ProcessAnswer(Console.ReadLine(), line, ref i, ref maxLines);
-						Console.WriteLine(line[0].Replace("!", "").Replace("?", ""));
+						voice.Say(cleanAnswer, Languages.German);
+						Console.WriteLine(cleanAnswer);
 						Console.WriteLine();
 						UpdateStats(Console.ForegroundColor);
 						Console.ResetColor();
