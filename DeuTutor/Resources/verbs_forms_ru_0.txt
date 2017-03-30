@@ -1,0 +1,17 @@
+genießen, genießt, genoss, hat genossen 	наслаждаться
+stehlen, stiehlt, stahl, hat gestohlen 	воровать
+fahren, fährt, fuhr, hat/ist gefahren 	ехать, ездить
+schieben, schiebt, schob, hat geschoben 	двигать, толкать
+schwinden, schwindet, schwand, ist geschwunden 	убывать, исчезать
+fangen, fängt, fing, hat gefangen 	ловить
+riechen, riecht, roch, hat gerochen 	нюхать
+schmelzen, schmilzt, schmolz, hat/ist geschmolzen 	таять
+scheren, schiert, schor, hat geschoren 	стричь
+flechten, flicht, flocht, hat geflochten 	плести
+fliegen, fliegt, flog, hat/ist geflogen 	летать
+meiden, meidet, mied, hat gemieden 	избегать
+sollen, soll, sollte, hat gesollt 	долженствовать
+weisen, weist, wies, hat gewiesen 	указывать
+schlingen, schlingt, schlang, hat geschlungen 	обвивать
+empfehlen, empfiehlt, empfahl, hat empfohlen 	рекомендовать
+schaffen, schafft, schuf, hat geschaffen 	создавать, творить

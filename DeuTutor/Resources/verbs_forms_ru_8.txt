@@ -1,0 +1,17 @@
+befehlen, befiehlt, befahl, hat befohlen 	приказывать
+backen, bäckt / backt, buk/backte, hat gebacken 	печь
+kriechen, kriecht, kroch, ist gekrochen 	ползать
+reiten, reitet, ritt, hat/ist geritten 	ездить верхом
+bringen, bringt, brachte, hat gebracht 	приносить 
+verderben, verdirbt, verdarb, hat/ist verdorben 	портить
+laufen, läuft, lief, ist gelaufen 	бегать
+löschen, löscht, losch, hat geloschen 	тушить, стирать
+fließen, fließt, floss, ist geflossen 	течь, литься
+stehen, steht, stand, hat gestanden 	стоять, находиться
+verdrießen, verdrießt, verdross, hat verdrossen 	сердить, досаждать
+gehen, geht, ging, ist gegangen 	идти, ходить
+ziehen, zieht, zog, hat/ist gezogen 	тащить
+nennen, nennt, nannte, hat genannt 	называть
+wissen, weiß, wusste, hat gewusst 	знать
+streichen, streicht, strich, hat gestrichen 	гладить
+bitten, bittet, bat, hat gebeten 	просить

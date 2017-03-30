@@ -1,0 +1,17 @@
+werfen, wirft, warf, hat geworfen 	кидать
+dreschen, drischt, drosch, hat gedroschen 	молотить
+rinnen, rinnt, rann, ist geronnen 	течь
+schreien, schreit, schrie, hat geschrien 	кричать
+kennen, kennt, kannte, hat gekannt 	знать
+leihen, leiht, lieh, hat geliehen 	одалживать
+bergen, birgt, barg, hat geborgen 	спасать
+preisen, preist, pries, hat gepriesen 	хвалить
+gleichen, gleicht, glich, hat geglichen 	выравнивать
+tragen, trägt, trug, hat getragen 	носить
+verzeihen, verzeiht, verzieh, hat verziehen 	прощать
+schleifen, schleift, schliff, hat geschliffen 	точить
+gleiten, gleitet, glitt, ist geglitten 	скользить
+mißlingen, mißlingt, mißlang, ist mißlungen 	не удаваться
+gelingen, gelingt, gelang, ist gelungen 	удаваться
+erschrecken, erschrickt, erschrak, ist erschrocken 	пугаться
+bieten, bietet, bot, hat geboten 	предлагать

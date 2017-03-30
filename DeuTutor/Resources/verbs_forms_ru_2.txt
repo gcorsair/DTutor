@@ -1,0 +1,17 @@
+frieren, friert, fror, hat gefroren 	замерзать
+kommen, kommt, kam, ist gekommen 	приходить
+stoßen, stößt, stieß, hat/ist gestoßen, толкать
+sein, ist, war, ist gewesen 	быть
+trinken, trinkt, trank, hat getrunken 	пить
+leiden, leidet, litt, hat gelitten 	страдать, терпеть
+sinnen, sinnt, sann, hat gesonnen 	думать, размышлять
+heißen, heißt, hieß, hat geheißen 	называться
+schwimmen, schwimmt, schwamm, ist geschwommen 	плавать
+heben, hebt, hob, hat gehoben 	поднимать
+wiegen, wiegt, wog, hat gewogen 	качать, весить
+sitzen, sitzt, saß, hat gesessen 	сидеть
+reißen, reißt, riss, hat/ist gerissen 	рвать
+stechen, sticht, stach, ist gestochen 	колоть
+empfangen, empfängt, empfing, hat empfangen 	принимать
+geben, gibt, gab, hat gegeben 	давать
+werden, wird, wurde, ist geworden 	становиться

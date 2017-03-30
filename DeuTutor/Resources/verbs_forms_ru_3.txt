@@ -1,0 +1,17 @@
+schneiden, schneidet, schnitt, hat geschnitten 	резать
+geschehen, geschieht, geschah, ist geschehen 	происходить
+fliehen, flieht, floh, ist geflohen 	убегать, удирать
+bersten, birst, barst, ist geborsten 	лопнуть
+gären, gärt, gor, ist gegoren 	бродить
+winden, windet, wand, hat gewunden 	мотать
+gießen, gießt, goss, hat gegossen 	лить, наливать
+salzen, salzt, salzte, hat gesalzen/gesalzt 	солить
+mögen, mag, mochte, hat gemocht 	любить, хотеть
+waschen, wäscht, wusch, hat gewaschen 	мыть
+senden, sendet, sandte, hat gesandt 	посылать, отправлять
+nehmen, nimmt, nahm, hat genommen 	брать
+rufen, ruft, rief, hat gerufen 	кричать, звать
+brennen, brennt, brannte, hat gebrannt 	гореть
+beißen, beißt, biß, hat gebissen 	кусать
+graben, gräbt, grub, hat gegraben 	копать
+spinnen, spinnt, spann, hat gesponnen 	прясть

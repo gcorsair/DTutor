@@ -1,0 +1,18 @@
+schreiben, schreibt, schrieb, hat geschrieben 	писать
+helfen, hilft, half, hat geholfen 	помогать
+sprechen, spricht, sprach, hat gesprochen 	говорить
+essen, isst, aß, hat gegessen 	есть, кушать
+schelten, schilt, schalt, hat gescholten 	бранить
+sterben, stirbt, starb, ist gestorben 	умирать
+schmeißen, schmeißt, schmiss, hat geschmissen 	кидать, бросать
+brechen, bricht, brach, hat/ist gebrochen 	ломать
+trügen, trügt, trog, hat getrogen 	обманывать
+springen, springt, sprang, ist gesprungen 	прыгать, скакать
+schießen, schießt, schoss, hat geschossen 	стрелять
+schlagen, schlägt, schlug, hat geschlagen 	бить
+fallen, fällt, fiel, ist gefallen 	падать
+bleiben, bleibt, blieb, ist geblieben 	оставаться 
+pfeifen, pfeift, pfiff, hat gepfiffen 	свистеть
+wägen, wägt, wog, hat gewogen 	взвешивать
+zwingen, zwingt, zwang, hat gezwungen 	принуждать
+schwellen, schwillt, schwoll, ist geschwollen 	пухнуть
