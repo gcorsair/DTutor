@@ -1,14 +1,14 @@
-beauftragen 	поручать кому-л.
+﻿beauftragen 	поручать кому-л.
 beauftragen mit 	поручать что-л.
 beitragen zu 	способствовать чему-л., вносить вклад во что-л.
 taugen zu 	годиться на что-л.
 erkennen 	узнать, опознать кого-л., что-л.
 erkennen an 	узнать, опознать по чему-л.
 beitreten 	вступать во что-л.
-schießen auf / nach 	стрелять в кого-л., по кому-л.
+schießen auf/nach 	стрелять в кого-л., по кому-л.
 kämpfen gegen 	бороться с кем/чем-л., против кого/чего-л.
 schuld sein an 	быть виноватым в чём-л.
-bezeichnen als N. 	наз(ы)вать, именовать, обозначить кем-л., чем-л.
+bezeichnen als 	наз(ы)вать, именовать, обозначить кем-л., чем-л.
 aufpassen auf 	следить, присматривать, наблюдать за чем-л.
 glauben an 	верить во что-л.
 staunen über 	удивляться чему-л.
@@ -18,8 +18,8 @@ nagen an 	грызть что-л.
 vorbeifahren an 	проезжать мимо чего-л.
 freuen sich über 	радоваться чему-л. (свершившемуся)
 entscheiden sich für 	решиться на что-л.
-arbeiten als N. 	работать кем-л., в качестве/должности кого-л.
-brauchen (bedürfen G.) 	нуждаться в чём-л.
-abhängen von (ankommen auf ) 	зависеть от чего-л., кого-л.
+arbeiten als 	работать кем-л., в качестве/должности кого-л.
+brauchen (bedürfen) 	нуждаться в чём-л.
+abhängen von (ankommen auf) 	зависеть от чего-л., кого-л.
 siegen über 	победить кого/что-л., выиграть у кого-л.
 schimpfen auf/über 	ругать, бранить кого-л.
