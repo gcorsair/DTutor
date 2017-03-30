@@ -18,6 +18,8 @@ namespace DeuTutor
 		static int statGreen;
 		static int statRed;
 		static int statWhite;
+		private static string aLanguage;
+		private static string qLanguage;
 
 		[STAThread]
 		static void Main(string[] args)
@@ -58,10 +60,14 @@ namespace DeuTutor
 					{
 						Console.Title = String.Format("Progress: {0}/{1}  G:{2} W:{3} R:{4}", i + 1, maxLines, statGreen, statWhite, statRed);
 						string[] line = lines[i].Split(new String[] { DELIMITER }, StringSplitOptions.None);
+
+						if (!String.IsNullOrEmpty(qLanguage)) voice.Say(line[1], qLanguage);
 						Console.WriteLine(line[1]);
+
 						string cleanAnswer = line[0].Replace("!", "").Replace("?", "");
 						Console.ForegroundColor = ProcessAnswer(Console.ReadLine(), line, ref i, ref maxLines);
-						voice.Say(cleanAnswer, Languages.German);
+
+						if (!String.IsNullOrEmpty(aLanguage)) voice.Say(cleanAnswer, aLanguage);
 						Console.WriteLine(cleanAnswer);
 						Console.WriteLine();
 						UpdateStats(Console.ForegroundColor);
@@ -88,6 +94,14 @@ namespace DeuTutor
 			else
 			{
 				Exit();
+			}
+			string settingsFile = (Regex.Replace(fd.FileName, @"\d+", "")).Replace("txt", "settings");
+			if (File.Exists(settingsFile))
+			{
+				string[] settings = File.ReadAllLines(settingsFile);
+				string[] voiceLanguageSetting = settings[0].Split(new String[] { DELIMITER }, StringSplitOptions.None);
+				aLanguage = voiceLanguageSetting[0];
+				qLanguage = voiceLanguageSetting[1];
 			}
 		}
 

@@ -17,14 +17,13 @@ namespace DeuTutor
 		private string lang;
 		private VoiceProvider voiceProvider;
 		private string filePath;
+		public int speedRate;
 	
 		public Voice()
 		{
-			apiKey = "c6aac2a97eef4a5d89c7b54b6f5a03d6";
+			apiKey = Properties.Settings.Default.apiKey;
+			speedRate = Properties.Settings.Default.speedRate;
 			isSSL = false;
-			text = "über eine Änderung der Verfassung";
-			lang = Languages.German;
-
 			voiceProvider = new VoiceProvider(apiKey, isSSL);
 
 			voiceProvider.SpeechFailed += (Exception ex) =>
@@ -49,7 +48,7 @@ namespace DeuTutor
 				AudioFormat = AudioFormat.Format_44KHZ.AF_44khz_16bit_mono,
 				IsBase64 = false,
 				IsSsml = false,
-				SpeedRate = 0
+				SpeedRate = speedRate
 			};
 			filePath = GetFilePath(text);
 			if (!File.Exists(filePath))
@@ -73,7 +72,7 @@ namespace DeuTutor
 			{
 				Directory.CreateDirectory(folder);
 			}
-			return Path.Combine(folder, text+".wav");
+			return Path.Combine(folder, text+".mp3");
 		}
 	}
 }
