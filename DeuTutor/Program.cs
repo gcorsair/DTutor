@@ -88,8 +88,7 @@ namespace DeuTutor
 
 		private static void LoadData()
 		{
-			var fd = new OpenFileDialog();
-			fd.InitialDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Resources");
+			var fd = new OpenFileDialog {InitialDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Resources")};
 			if (fd.ShowDialog() == DialogResult.OK)
 			{
 				_lines = File.ReadAllLines(fd.FileName).ToList();
@@ -99,7 +98,7 @@ namespace DeuTutor
 			{
 				Exit();
 			}
-			var settingsFile = (Regex.Replace(fd.FileName, @"\d+", "")).Replace(Path.GetExtension(fd.FileName), "settings");
+			var settingsFile = (Regex.Replace(fd.FileName, @"\d+", "")).Replace(Path.GetExtension(fd.FileName), ".settings");
 			if (File.Exists(settingsFile))
 			{
 				var settings = File.ReadAllLines(settingsFile);
@@ -158,7 +157,7 @@ namespace DeuTutor
 			if (match)
 			{
 				Console.CursorTop--;
-				if (line.Count() < 3)
+				if (line.Length < 3)
 				{
 					_lines[i] += Delimiter + "+";
 				}
