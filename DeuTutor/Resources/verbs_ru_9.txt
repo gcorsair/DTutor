@@ -1,24 +1,28 @@
-verdammen zu D. 	осуждать на что-л., приговорить к чему-л.
-aufregen sich über A. 	волноваться, беспокоиться из-за чего-л., кого-л.
-verheiraten mit D. 	женить на ком-л.
-anrufen A. 	звонить кому-л.
-verbeugen D. 	предотвращать что-л.
-befassen sich mit D. 	заниматься чем-л.
-enthalten sich G. 	воздерживаться от чего-л.
-überzeugen sich von D. 	убеждаться в чём-л.
-rühren an D. 	дотрагиваться до чего-л., прикасаться к чему-л.
-richten sich nach D. 	руководствоваться чем-л., следовать чему-л.
-antworten auf A. (beantworten A.) 	отвечать на что-л.
-berichten über A. 	сообщать, докладывать, рапортовать о чём-л.
-beschweren sich bei D. | über A. 	(по)жаловаться кому-л., во что-л. | на кого-л., что-л.
-arbeiten an A. 	работать над чем-л.
-vorbeugen D. 	предотвращать, предупреждать что-л.
-entnehmen D. 	(по)заимствовать у кого-л., из чего-л.
-entsetzen A. | G. 	смещать кого-л. | с какого-л. поста, какой-л. должности
-bedanken sich bei D. | für A. 	благодарить кого-л. | за что-л.
-anbauen A. | an A. 	пристраивать что-л. | к чему-л.
-erzählen D. | von D. 	рассказ(ыв)ать кому-л. | о чём-л.
-aufhören mit D. 	прекратить, прервать что-л.
-ernennen A. | zu D. 	назначить кого-л. | кем-л., на какую-л. должность
-erreichen A. 	достигать чего-л.
-hinweisen auf A. 	указывать на что-л.
+verdammen zu 	осуждать на что-л., приговорить к чему-л.
+aufregen sich über 	волноваться, беспокоиться из-за чего-л., кого-л.
+verheiraten mit 	женить на ком-л.
+anrufen 	звонить кому-л.
+verbeugen 	предотвращать что-л.
+befassen sich mit 	заниматься чем-л.
+enthalten sich 	воздерживаться от чего-л.
+überzeugen sich von 	убеждаться в чём-л.
+rühren an 	дотрагиваться до чего-л., прикасаться к чему-л.
+richten sich nach 	руководствоваться чем-л., следовать чему-л.
+antworten auf (beantworten) 	отвечать на что-л.
+berichten über 	сообщать, докладывать, рапортовать о чём-л.
+beschweren sich über 	(по)жаловаться на кого-л., что-л.
+beschweren sich bei	(по)жаловаться кому-л., во что-л.
+arbeiten an 	работать над чем-л.
+vorbeugen 	предотвращать, предупреждать что-л.
+entnehmen 	(по)заимствовать у кого-л., из чего-л.
+entsetzen	смещать кого-л.
+bedanken sich für 	благодарить за что-л.
+bedanken sich bei	благодарить кого-л.
+anbauen an 	пристраивать к чему-л.
+erzählen von 	рассказ(ыв)ать о чём-л.
+erzählen	рассказ(ыв)ать кому-л.
+aufhören mit 	прекратить, прервать что-л.
+ernennen zu 	назначить на какую-л. должность
+ernennen	назначить кого-л.
+erreichen 	достигать чего-л.
+hinweisen auf 	указывать на что-л.

@@ -1,40 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Media;
-using System.Text;
-using System.Threading.Tasks;
 using VoiceRSS_SDK;
 
 namespace DeuTutor
 {
 	class Voice
 	{
-		private string apiKey;
-		private bool isSSL;
-		private string text;
-		private string lang;
-		private VoiceProvider voiceProvider;
-		private string filePath;
-		public int speedRate;
+		private readonly VoiceProvider _voiceProvider;
+		private string _filePath;
+		public int SpeedRate;
 	
 		public Voice()
 		{
-			apiKey = Properties.Settings.Default.apiKey;
-			speedRate = Properties.Settings.Default.speedRate;
-			isSSL = false;
-			voiceProvider = new VoiceProvider(apiKey, isSSL);
+			var apiKey = Properties.Settings.Default.apiKey;
+			SpeedRate = Properties.Settings.Default.speedRate;
+			_voiceProvider = new VoiceProvider(apiKey, false);
 
-			voiceProvider.SpeechFailed += (Exception ex) =>
+			_voiceProvider.SpeechFailed += ex =>
 			{
 				Console.WriteLine(ex.Message);
 			};
 
-			voiceProvider.SpeechReady += (object data) =>
+			_voiceProvider.SpeechReady += data =>
 			{
-				File.WriteAllBytes(filePath, (byte[])data);
-				MP3Player.PlayFile(filePath);
+				File.WriteAllBytes(_filePath, (byte[])data);
+				Mp3Player.PlayFile(_filePath);
 			};
 
 
@@ -48,23 +38,23 @@ namespace DeuTutor
 				AudioFormat = AudioFormat.Format_44KHZ.AF_44khz_16bit_mono,
 				IsBase64 = false,
 				IsSsml = false,
-				SpeedRate = speedRate
+				SpeedRate = SpeedRate
 			};
-			filePath = GetFilePath(text);
-			if (!File.Exists(filePath))
+			_filePath = GetFilePath(text);
+			if (!File.Exists(_filePath))
 			{
-				voiceProvider.SpeechAsync<byte[]>(voiceParams);
+				_voiceProvider.SpeechAsync<byte[]>(voiceParams);
 			}
 			else
 			{
-				MP3Player.PlayFile(filePath);
+				Mp3Player.PlayFile(_filePath);
 			}
 		}
 
 		private string GetFilePath(string text)
 		{
-			Guid guid = GuidUtility.Create(GuidUtility.DnsNamespace, text);
-			string folder = Path.Combine(Environment.CurrentDirectory, "Voiced");
+			var guid = GuidUtility.Create(GuidUtility.DnsNamespace, text);
+			var folder = Path.Combine(Environment.CurrentDirectory, "Voiced");
 			if (!Directory.Exists(folder))
 			{
 				Directory.CreateDirectory(folder);

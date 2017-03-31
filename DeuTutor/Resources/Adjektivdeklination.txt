@@ -14,22 +14,22 @@
 !die -en	Definiter PLURAL Akkusative
 !den -en -n	Definiter PLURAL Dative
 !der -en	Definiter PLURAL Genitiv
-!ein -er	Indef./Possessiv Maskulin Nominative
-!einen -en	Indef./Possessiv Maskulin Akkusative
-!einem -en	Indef./Possessiv Maskulin Dative
-!eines -en -s	Indef./Possessiv Maskulin Genitiv
-!ein -es	Indef./Possessiv Neutral Nominative
-!ein -es	Indef./Possessiv Neutral Akkusative
-!einem -en	Indef./Possessiv Neutral Dative
-!eines -en -s	Indef./Possessiv Neutral Genitiv
-!eine -e	Indef./Possessiv Feminin Nominative
-!eine -e	Indef./Possessiv Feminin Akkusative
-!einer -en	Indef./Possessiv Feminin Dative
-!einer -en	Indef./Possessiv Feminin Genitiv
-!meine -en	Indef./Possessiv PLURAL Nominative
-!meine -en	Indef./Possessiv PLURAL Akkusative
-!meinen -en -n	Indef./Possessiv PLURAL Dative
-!meiner -en	Indef./Possessiv PLURAL Genitiv
+!ein -er	Indefiniter/Possessiv Maskulin Nominative
+!einen -en	Indefiniter/Possessiv Maskulin Akkusative
+!einem -en	Indefiniter/Possessiv Maskulin Dative
+!eines -en -s	Indefiniter/Possessiv Maskulin Genitiv
+!ein -es	Indefiniter/Possessiv Neutral Nominative
+!ein -es	Indefiniter/Possessiv Neutral Akkusative
+!einem -en	Indefiniter/Possessiv Neutral Dative
+!eines -en -s	Indefiniter/Possessiv Neutral Genitiv
+!eine -e	Indefiniter/Possessiv Feminin Nominative
+!eine -e	Indefiniter/Possessiv Feminin Akkusative
+!einer -en	Indefiniter/Possessiv Feminin Dative
+!einer -en	Indefiniter/Possessiv Feminin Genitiv
+!meine -en	Indefiniter/Possessiv PLURAL Nominative
+!meine -en	Indefiniter/Possessiv PLURAL Akkusative
+!meinen -en -n	Indefiniter/Possessiv PLURAL Dative
+!meiner -en	Indefiniter/Possessiv PLURAL Genitiv
 !-er	Ohne Artikel Maskulin Nominative
 !-en	Ohne Artikel Maskulin Akkusative
 !-em	Ohne Artikel Maskulin Dative

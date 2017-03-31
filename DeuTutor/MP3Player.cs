@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace DeuTutor
 {
-	public static class MP3Player
+	//Thanks http://stackoverflow.com/users/13793/joe-doyle
+
+	public static class Mp3Player
 	{
 		private static string _command;
-		private static bool isOpen;
+		private static bool _isOpen;
 		[DllImport("winmm.dll")]
 		private static extern long mciSendString(string strCommand, StringBuilder strReturn, int iReturnLength, IntPtr hwndCallback);
 
@@ -21,19 +20,19 @@ namespace DeuTutor
 		{
 			_command = "close MediaFile";
 			mciSendString(_command, null, 0, IntPtr.Zero);
-			isOpen = false;
+			_isOpen = false;
 		}
 
 		private static void Open(string sFileName)
 		{
 			_command = "open \"" + sFileName + "\" type mpegvideo alias MediaFile";
 			mciSendString(_command, null, 0, IntPtr.Zero);
-			isOpen = true;
+			_isOpen = true;
 		}
 
 		private static void Play(bool loop)
 		{
-			if (isOpen)
+			if (_isOpen)
 			{
 				_command = "play MediaFile";
 				if (loop)
