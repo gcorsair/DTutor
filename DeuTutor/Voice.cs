@@ -63,16 +63,13 @@ namespace DeuTutor
 
 		private string GetFilePath(string text)
 		{
-			foreach (var c in Path.GetInvalidFileNameChars())
-			{
-				text = text.Replace(c, '-');
-			}
+			Guid guid = GuidUtility.Create(GuidUtility.DnsNamespace, text);
 			string folder = Path.Combine(Environment.CurrentDirectory, "Voiced");
 			if (!Directory.Exists(folder))
 			{
 				Directory.CreateDirectory(folder);
 			}
-			return Path.Combine(folder, text+".mp3");
+			return Path.Combine(folder, guid + ".mp3");
 		}
 	}
 }
