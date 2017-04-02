@@ -33,6 +33,7 @@ namespace DeuTutor
 				_statGreen = 0;
 				_statRed = 0;
 				_statWhite = 0;
+				_qLanguage = _aLanguage = String.Empty;
 				LoadData();
 				RunExercise();
 				Console.Title = "Finished!     " + _fileNameWithoutExtension;
