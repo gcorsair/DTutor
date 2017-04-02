@@ -60,8 +60,7 @@ namespace DeuTutor
 				{
 					try
 					{
-						Console.Title =
-							$"Progress: {i + 1}/{maxLines}  G:{_statGreen} W:{_statWhite} R:{_statRed}     [{_fileNameWithoutExtension}]";
+						Console.Title = String.Format("Progress: {0}/{1}     G:{2} W:{3} R:{4}     [{5}]", i+1, maxLines, _statGreen,_statWhite,_statRed,_fileNameWithoutExtension);
 						var line = _lines[i].Split(new[] { Delimiter }, StringSplitOptions.None);
 
 						if (!string.IsNullOrEmpty(_qLanguage)) voice.Say(line[1], _qLanguage);
